@@ -1,0 +1,41 @@
+<div class="import-ph-card-wrapper">
+  <div class="import-ph-wrapper">
+    <h3>Enter photo data</h3>
+    <form [formGroup]="importphFG" class="import-ph-form">
+      <mat-form-field appearance="outline" floatLabel="always">
+        <mat-label>URL</mat-label>
+        <input
+          formControlName="url"
+          type="text"
+          matInput
+          class="example-right-align"
+        />
+      </mat-form-field>
+      <mat-form-field appearance="outline" floatLabel="always">
+        <mat-label>Title</mat-label>
+        <input
+          formControlName="title"
+          type="text"
+          matInput
+          class="example-right-align"
+        />
+      </mat-form-field>
+      <mat-form-field appearance="outline" floatLabel="always">
+        <mat-label>Description</mat-label>
+        <input
+          formControlName="description"
+          type="text"
+          matInput
+          class="example-right-align"
+        />
+      </mat-form-field>
+    </form>
+    <button
+      mat-stroked-button
+      class="import-ph-button"
+      (click)="importSubmit()"
+    >
+      Import
+    </button>
+  </div>
+</div>

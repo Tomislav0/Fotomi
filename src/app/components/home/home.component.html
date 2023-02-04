@@ -1,0 +1,12 @@
+<button (click)="open()">Nes</button>
+<div class="body center mb-10" *ngFor="let p of photos">
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="../photos/an1.jpg">
+        <img [src]="p.url" width="500"
+      /></a>
+
+      <div class="desc">Ana</div>
+    </div>
+  </div>
+</div>
