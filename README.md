@@ -1,4 +1,4 @@
-# MyDiary
+# Fotomi
 ###### Still in (first) developing phase
 This is application for photographer where he can publish his work and get new customers. <br/>
 
